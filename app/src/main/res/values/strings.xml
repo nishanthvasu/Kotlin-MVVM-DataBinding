@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FutureInSkies</string>
+    <string name="txt_network_failed">Network connection failed</string>
+    <string name="year">Launched Year</string>
+    <string name="status">Launch Status</string>
+    <string name="location">Launched at</string>
+    <string name="success">Success</string>
+    <string name="failure">Failure</string>
+    <string name="yourmissiles">Your Missiles</string>
+    <string name="flightno">Flight No.</string>
+    <string name="launchdate">Launched on</string>
+    <string name="wiki">Wiki</string>
+    <string name="youtube">Youtube</string>
+    <string name="rocket">Rocket Details</string>
+    <string name="payloadtype">Type</string>
+    <string name="nationality">Nationality</string>
+    <string name="id">ID</string>
+    <string name="orbit">Orbit</string>
+    <string name="cargo">Wiki</string>
+    <string name="txt_signin">Sign In</string>
+    <string name="txt_employee_id">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_update">Update</string>
+    <string name="entermobile">Please enter your mobile number</string>
+    <string name="enterpwd">Please enter your password</string>
+    <string name="entervalidmobilenum">Please enter your valid mobile number</string>
+    <string name="txt_profileupdated">Profile has been updated successfully</string>
+    <string name="txt_loginsuccess">You have logged in successfully</string>
+    <string name="txt_registered">You have already registered here</string>
+    <string name="txt_passwordwrong">Your password is wrong</string>
+</resources>

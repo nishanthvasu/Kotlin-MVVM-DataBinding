@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="mobilenummaxlength">15</integer>
+    <integer name="namemaxlength">30</integer>
+    <integer name="passwordmaxlength">15</integer>
+</resources>

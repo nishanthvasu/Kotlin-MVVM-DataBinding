@@ -1,0 +1,128 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="pad_0dp">0dip</dimen>
+    <dimen name="pad_1dp">1.0dip</dimen>
+    <dimen name="pad_2dp">2.0dip</dimen>
+    <dimen name="pad_3dp">3.0dip</dimen>
+    <dimen name="pad_4dp">4.0dip</dimen>
+    <dimen name="pad_5dp">5.0dip</dimen>
+    <dimen name="pad_6dp" tools:ignore="UnusedResources">6.0dip</dimen>
+    <dimen name="pad_8dp">8.0dip</dimen>
+    <dimen name="pad_10dp">10.0dip</dimen>
+    <dimen name="pad_12dp">12.0dip</dimen>
+    <dimen name="pad_13dp" tools:ignore="UnusedResources">13.0dip</dimen>
+    <dimen name="pad_15dp">15.0dip</dimen>
+    <dimen name="pad_16dp">16.0dip</dimen>
+    <dimen name="pad_20dp">20.0dip</dimen>
+    <dimen name="pad_22dp">22.0dip</dimen>
+    <dimen name="pad_23dp">23.0dip</dimen>
+    <dimen name="pad_24dp">24.0dip</dimen>
+    <dimen name="pad_25dp">25.0dip</dimen>
+    <dimen name="pad_26dp">26.0dip</dimen>
+    <dimen name="pad_36dp" tools:ignore="UnusedResources">36.0dip</dimen>
+    <dimen name="pad_30dp">30.0dip</dimen>
+    <dimen name="pad_40dp">40.0dip</dimen>
+    <dimen name="pad_45dp" tools:ignore="UnusedResources">45.0dip</dimen>
+    <dimen name="pad_50dp">50.0dip</dimen>
+    <dimen name="pad_56dp" tools:ignore="UnusedResources">56.0dip</dimen>
+    <dimen name="pad_60dp">60.0dip</dimen>
+    <dimen name="pad_64dp" tools:ignore="UnusedResources">64.0dip</dimen>
+    <dimen name="pad_48dp" tools:ignore="UnusedResources">48.0dip</dimen>
+    <dimen name="pad_70dp">70.0dip</dimen>
+    <dimen name="pad_75dp">75.0dip</dimen>
+    <dimen name="pad_80dp">80.0dip</dimen>
+    <dimen name="pad_90dp" tools:ignore="UnusedResources">90.0dip</dimen>
+    <dimen name="pad_100dp">100.0dip</dimen>
+    <dimen name="pad_110dp" tools:ignore="UnusedResources">110.0dip</dimen>
+    <dimen name="pad_120dp">120.0dip</dimen>
+    <dimen name="pad_130dp">130.0dip</dimen>
+    <dimen name="pad_150dp">150.0dip</dimen>
+    <dimen name="pad_180dp" tools:ignore="UnusedResources">180.0dip</dimen>
+    <dimen name="pad_200dp" tools:ignore="UnusedResources">200.0dip</dimen>
+    <dimen name="pad_240dp">240.0dip</dimen>
+    <dimen name="pad_250dp">250.0dip</dimen>
+    <dimen name="pad_350dp">350.0dip</dimen>
+
+    <dimen name="pad_chat_item" tools:ignore="UnusedResources">45.0dip</dimen>
+    <dimen name="pad_chat_item0" tools:ignore="UnusedResources">55.0dip</dimen>
+    <dimen name="pad_chat_item1" tools:ignore="UnusedResources">10.0dip</dimen>
+    <dimen name="txt_7sp" tools:ignore="UnusedResources">7.0sp</dimen>
+    <dimen name="txt_10sp">10.0sp</dimen>
+    <dimen name="txt_12sp" tools:ignore="UnusedResources">12.0sp</dimen>
+    <dimen name="txt_13sp" tools:ignore="UnusedResources">13.0sp</dimen>
+    <dimen name="txt_14sp">14.0sp</dimen>
+    <dimen name="txt_15sp">15.0sp</dimen>
+    <dimen name="txt_16sp">16.0sp</dimen>
+    <dimen name="txt_17sp">17.0sp</dimen>
+    <dimen name="txt_18sp">18.0sp</dimen>
+    <dimen name="txt_20sp">20.0sp</dimen>
+    <dimen name="txt_22sp" tools:ignore="UnusedResources">22.0sp</dimen>
+    <dimen name="txt_24sp" tools:ignore="UnusedResources">24.0sp</dimen>
+    <dimen name="txt_26sp">26.0sp</dimen>
+    <dimen name="txt_30sp" tools:ignore="UnusedResources">30.0sp</dimen>
+    <dimen name="divider">0.50dip</dimen>
+
+
+    <dimen name="signup_line_padding" tools:ignore="UnusedResources">5dp</dimen>
+    <dimen name="signup_line_padding_top" tools:ignore="UnusedResources">10dp</dimen>
+    <dimen name="signup_box_padding" tools:ignore="UnusedResources">8dp</dimen>
+    <dimen name="signup_box_curve_radius" tools:ignore="UnusedResources">4dp</dimen>
+    <dimen name="signup_box_curve_radius_1" tools:ignore="UnusedResources">1dp</dimen>
+
+    <dimen name="rider_image_left" tools:ignore="UnusedResources">115.0dip</dimen>
+    <dimen name="rider_image" tools:ignore="UnusedResources">120.0dip</dimen>
+    <dimen name="pad_300dp" tools:ignore="UnusedResources">300.0dip</dimen>
+    <dimen name="rider_bottom_right" tools:ignore="UnusedResources">110.0dip</dimen>
+    <dimen name="detail_backdrop_height" tools:ignore="UnusedResources">256dp</dimen>
+
+    <!--QB-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="grid_item_divider" tools:ignore="UnusedResources">4dp</dimen>
+
+    <integer name="users_count" tools:ignore="UnusedResources">10</integer>
+
+    <dimen name="call_buttons_diameter" tools:ignore="UnusedResources">64dp</dimen>
+    <dimen name="call_buttons_padding" tools:ignore="UnusedResources">16dp</dimen>
+    <dimen name="call_caller_name_top_avatar_margin" tools:ignore="UnusedResources">16dp</dimen>
+    <dimen name="call_buttons_margin" tools:ignore="UnusedResources">32dp</dimen>
+    <dimen name="call_avatar_top_margin" tools:ignore="UnusedResources">64dp</dimen>
+    <dimen name="call_horizontal_avatar_start_margin" tools:ignore="UnusedResources">24dp</dimen>
+    <dimen name="call_horizontal_avatar_end_margin" tools:ignore="UnusedResources">24dp</dimen>
+    <dimen name="call_opponent_avatar_diameter" tools:ignore="UnusedResources">176dp</dimen>
+    <dimen name="call_avatar_top_margin_plus_height_actionbar" tools:ignore="UnusedResources">
+        112dp
+    </dimen>
+    <dimen name="income_call_buttons_margin" tools:ignore="UnusedResources">88dp</dimen>
+
+    <dimen name="call_avatar_diameter" tools:ignore="UnusedResources">78dp</dimen>
+    <dimen name="call_margin_top" tools:ignore="UnusedResources">50dp</dimen>
+    <dimen name="call_name_size" tools:ignore="UnusedResources">25sp</dimen>
+    <dimen name="call_end_button_width" tools:ignore="UnusedResources">200dp</dimen>
+    <dimen name="call_end_button_height" tools:ignore="UnusedResources">50dp</dimen>
+
+    <dimen name="padding_start" tools:ignore="UnusedResources">16dp</dimen>
+    <dimen name="padding_top" tools:ignore="UnusedResources">16dp</dimen>
+    <dimen name="padding_actionbar" tools:ignore="UnusedResources">24dp</dimen>
+    <dimen name="padding_user_icon" tools:ignore="UnusedResources">16dp</dimen>
+    <dimen name="padding_bottom" tools:ignore="UnusedResources">62dp</dimen>
+    <dimen name="caller_name_text_size" tools:ignore="UnusedResources">22sp</dimen>
+    <dimen name="incoming_call_type_text_size" tools:ignore="UnusedResources">16sp</dimen>
+    <dimen name="also_on_call_text_size" tools:ignore="UnusedResources">16sp</dimen>
+    <dimen name="other_inc_users_text_size" tools:ignore="UnusedResources">16sp</dimen>
+
+    <dimen name="list_item_padding_top" tools:ignore="UnusedResources">8dp</dimen>
+    <dimen name="list_item_padding_bottom" tools:ignore="UnusedResources">8dp</dimen>
+
+    <dimen name="toggle_btn_height" tools:ignore="UnusedResources">50dp</dimen>
+    <dimen name="toggle_btn_width" tools:ignore="UnusedResources">500dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing" tools:ignore="UnusedResources">16dp</dimen>
+    <dimen name="nav_header_height" tools:ignore="UnusedResources">150dp</dimen><!--160dp-->
+    <dimen name="fab_margin" tools:ignore="UnusedResources">16dp</dimen>
+
+    <!--<dimen name="design_navigation_icon_size" tools:override="true">40dp</dimen>-->
+
+</resources>

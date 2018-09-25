@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewmodel"
+            type="developer.futureinskies.MissionList.MissionViewModel" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lightbluebgm"
+            android:padding="@dimen/pad_10dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_logout"
+                android:layout_width="@dimen/pad_25dp"
+                android:layout_height="@dimen/pad_25dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/pad_10dp"
+                android:onClick="@{() -> viewmodel.onLogout()}"
+                app:srcCompat="@drawable/ic_logout" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_branchname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/yourmissiles"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/txt_18sp"
+                android:textStyle="italic" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="@dimen/pad_25dp"
+                android:layout_height="@dimen/pad_25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/pad_10dp"
+                app:srcCompat="@drawable/ic_user" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_missionlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary" />
+    </LinearLayout>
+</layout>

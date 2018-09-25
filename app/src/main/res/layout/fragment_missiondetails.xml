@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewmodel"
+            type="developer.futureinskies.MissionDetails.MissionDetailsViewModel" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="@dimen/pad_10dp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/pad_20dp"
+                android:layout_height="@dimen/pad_20dp"
+                android:onClick="@{() -> viewmodel.onBackClicked()}"
+                app:srcCompat="@drawable/ic_back_arrow"
+                tools:ignore="VectorDrawableCompat" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_detailimg"
+                android:layout_width="@dimen/pad_100dp"
+                android:layout_height="@dimen/pad_100dp"
+                android:layout_gravity="center" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_flightno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:gravity="center"
+                android:text="@={viewmodel.flightno}"
+                android:textColor="@color/colorTextThird"
+                android:textSize="@dimen/txt_18sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_missilename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:gravity="center"
+                android:text="@={viewmodel.missilename}"
+                android:textColor="@color/colorTextThird"
+                android:textSize="@dimen/txt_18sp"
+                android:textStyle="bold|italic" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_launched"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:gravity="center"
+                android:text="@={viewmodel.launched}"
+                android:textColor="@color/colorTextThird"
+                android:textSize="@dimen/txt_15sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_launchedat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:gravity="center"
+                android:text="@={viewmodel.launchedat}"
+                android:textColor="@color/colorYellow"
+                android:textSize="@dimen/txt_15sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_wiki"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:gravity="center"
+                android:onClick="@{() -> viewmodel.openBrowser()}"
+                android:text="@={viewmodel.wiki}"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/txt_15sp" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_youtube"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:gravity="center"
+                android:onClick="@{() -> viewmodel.openYoutube()}"
+                android:text="@={viewmodel.youtube}"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/txt_15sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:background="@color/colorDivider" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_5dp"
+                android:gravity="center"
+                android:text="@string/rocket"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/txt_18sp"
+                android:textStyle="italic" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_rocketname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pad_10dp"
+                android:gravity="center"
+                android:text="@={viewmodel.rocketname}"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/txt_18sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_payloads"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+</layout>
